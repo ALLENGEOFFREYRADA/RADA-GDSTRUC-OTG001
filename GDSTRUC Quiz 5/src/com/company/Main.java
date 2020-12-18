@@ -13,6 +13,7 @@ public class Main {
 
     public static int pickySearch(int[] input, int value) {
         // Picky Search
+        // Data must be sorted
         // Picks a random index in the available array
         // Check if array value is equal to value, if so return index if not
         // Check if value is less than value, if so limit the search to indexes less than the current index if not
